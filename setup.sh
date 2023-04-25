@@ -7,7 +7,16 @@ sudo apt-get -y upgrade
 
 # List of packages to install
 declare -a PKGS=(
-    # TODO: put apt packages here
+    audacity
+    dictionaries-common
+    easytag
+    firefox
+    frog
+    gimp
+    git
+    gramps
+    neofetch
+    yt-dlp
 )
 
 for p in "${PKGS[@]}"
@@ -22,7 +31,15 @@ flatpak update
 
 # List of flatpaks to install
 declare -a FLTPKS=(
-    # TODO: put apt packages here
+    com.github.johnfactotum.QuickLookup
+    de.haeckerfelix.Fragments
+    de.haeckerfelix.Shortwave
+    md.obsidian.Obsidian
+    org.gabmus.gfeeds
+    org.gnome.Dictionary
+    org.gnome.Music
+    org.gnome.Recipes
+    org.onlyoffice.desktopeditors
 )
 
 for f in "${FLTPKS[@]}"
