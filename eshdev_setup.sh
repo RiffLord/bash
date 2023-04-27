@@ -5,7 +5,7 @@ sudo apt-get update
 sudo apt list --upgradable
 sudo apt-get -y upgrade
 
-# List of packages to install
+# Declare the list of packages to install
 declare -a PKGS=(
     composer
     mysql-server
