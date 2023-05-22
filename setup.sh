@@ -7,6 +7,10 @@ sudo apt-get -y upgrade
 
 # List of packages to install
 declare -a PKGS=(
+    gcc
+    g++
+    gdb
+    python3.8
     audacity
     dictionaries-common
     easytag
@@ -17,6 +21,7 @@ declare -a PKGS=(
     gramps
     neofetch
     yt-dlp
+    zorin-icon-themes
 )
 
 for p in "${PKGS[@]}"
