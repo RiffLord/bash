@@ -22,6 +22,7 @@ declare -a PKGS=(
     neofetch
     yt-dlp
     zorin-icon-themes
+    gnome-session-canberra
 )
 
 for p in "${PKGS[@]}"
